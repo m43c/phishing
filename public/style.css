@@ -23,8 +23,8 @@ body {
 }
 
 .login-error-message {
-  width: calc(100% - 60px); /* Ocupa el total menos 20px de cada lado */
-  margin: 20px auto 0 auto; /* Centra el cuadro y mantiene el margen superior */
+  width: 100%;
+  margin-top: 20px;
   border: 1px solid #dd3c10;
   font-size: 12px;
   background-color: #fee8e4;
