@@ -11,15 +11,23 @@ body {
 .login {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  height: 100vh;
+  min-height: 100vh;
+  padding-top: 2rem;
   text-align: center;
+}
+
+.login-facebook-logo {
+  margin-bottom: auto;
 }
 
 .img-facebook-logo {
   width: 70px;
   height: 70px;
+}
+
+.login-error-message, form {
+  margin-bottom: auto;
 }
 
 .login-error-message {
@@ -73,14 +81,14 @@ body {
   color: white;
 }
 
-.form-new-account-btn {
-  border: 1px solid #005fd5;
-  color: #005fd5;
-  background-color: white;
-}
-
 .form-recovery {
   margin: 0;
   font-size: small;
   text-align: center;
+}
+
+.form-new-account-btn {
+  border: 1px solid #005fd5;
+  color: #005fd5;
+  background-color: white;
 }
