@@ -22,6 +22,14 @@ body {
   height: 70px;
 }
 
+.login-error-message {
+  width: calc(100% - 60px); /* Ocupa el total menos 20px de cada lado */
+  margin: 20px auto 0 auto; /* Centra el cuadro y mantiene el margen superior */
+  border: 1px solid #dd3c10;
+  font-size: 12px;
+  background-color: #fee8e4;
+}
+
 .form {
   display: flex;
   flex-direction: column;
@@ -29,7 +37,7 @@ body {
   align-items: center;
   gap: 1rem;
   width: 100%;
-  padding: 4rem 3rem;
+  padding: 2rem 3rem;
 }
 
 .form > * {
@@ -76,4 +84,3 @@ body {
   font-size: small;
   text-align: center;
 }
-
